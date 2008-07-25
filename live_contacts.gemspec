@@ -1,16 +1,14 @@
 Gem::Specification.new do |s|
   s.name = %q{live_contacts}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kenneth Lee"]
   s.date = %q{2008-07-25}
-  s.default_executable = %q{live_contacts}
   s.description = %q{FIX (describe your package)}
   s.email = %q{kenfodder@gmail.com}
-  s.executables = ["live_contacts"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-  s.files = ["History.txt", "Manifest.txt", "README.txt", "Rakefile", "bin/live_contacts", "lib/live_contacts.rb", "test/test_live_contacts.rb"]
+  s.files = ["History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/live_contacts.rb", "test/test_live_contacts.rb"]
   s.has_rdoc = true
   s.homepage = %q{FIX (url)}
   s.rdoc_options = ["--main", "README.txt"]

@@ -2,6 +2,5 @@ History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/live_contacts
 lib/live_contacts.rb
 test/test_live_contacts.rb
