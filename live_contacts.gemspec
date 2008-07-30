@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = %q{live_contacts}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kenneth Lee"]
-  s.date = %q{2008-07-25}
+  s.date = %q{2008-07-30}
   s.description = %q{FIX (describe your package)}
   s.email = %q{kenfodder@gmail.com}
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
