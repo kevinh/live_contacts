@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = %q{live_contacts}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kenneth Lee"]
-  s.date = %q{2008-07-30}
+  s.date = %q{2008-09-15}
   s.description = %q{FIX (describe your package)}
   s.email = %q{kenfodder@gmail.com}
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{FIX (url)}
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{live_contacts}
+  s.rubyforge_project = %q{live-contacts}
   s.rubygems_version = %q{1.2.0}
   s.summary = %q{FIX (describe your package)}
   s.test_files = ["test/test_live_contacts.rb"]

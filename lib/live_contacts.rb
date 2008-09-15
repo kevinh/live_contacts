@@ -41,7 +41,7 @@ require 'hmac-sha2'
 # end
 class LiveContacts
   
-  VERSION = '0.0.3'
+  VERSION = '0.0.4'
   
   # Live application attibutes
   attr_accessor :application_name, :app_id,:secret, :security_algorithm, :return_url, :privacy_policy_url, :application_verifier_required, :timestamp
