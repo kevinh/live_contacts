@@ -41,7 +41,7 @@ require 'hmac-sha2'
 # end
 class LiveContacts
   
-  VERSION = '0.0.5'
+  VERSION = '0.0.6'
   
   # Live application attibutes
   attr_accessor :application_name, :app_id,:secret, :security_algorithm, :return_url, :privacy_policy_url, :application_verifier_required, :timestamp
@@ -161,7 +161,8 @@ class LiveContacts
   
   # FIXME copied from Microsoft demo
   def generate_app_verifier(ip = nil)
-    token = "appid=#{self.app_id}&ts=#{self.timestamp.to_i.to_s || Time.now.utc.to_i.to_s}"
+    token = "appid=#{self.app_id}&ts=#{self.timestamp ? self.timestamp.to_i.to_s : Time.now.utc.to_i.to_s}"
+    RAILS_DEFAULT_LOGGER.debug token.inspect.yellow.bold
     token += "&ip=#{ip}" if ip
     token += "&sig=#{CGI.escape(Base64.encode64((signToken(token))))}"
     CGI.escape token
